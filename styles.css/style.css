@@ -2,7 +2,10 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+
 /* first section style */
 
 .slide{
@@ -16,8 +19,9 @@
     height:700px;
     object-fit: cover;
     position:relative;
-    /* opacity:0;
-    transition: opacity 1s ease-in-out; */
+    /* transform:scale(1);
+    transition: all 1s ease-in-out; */
+    
 }
 
 .hide{
@@ -36,15 +40,15 @@
  }
  .introduction{
     position:absolute;
-    bottom:150px;
-    right:130px;
+    bottom:25%;
+    right:10%;
  }
 
  .logo{
     width:30px;
     height:30px;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:20px;
+    margin-right:20px;
     cursor:pointer; 
    
  }
@@ -54,16 +58,148 @@
  .web-logo{
     position:absolute;
     bottom:100px;
-    right:20rem;
+    right:130px;
  }
 
- .progress-bar{
+ .title-progress{
     width:361px;
     height:5px;
     background-color:#E93656;
  }
- .progress{
+ .main-progress{
     position:absolute;
     bottom:40px;
     right:55px;
  }
+
+ /* second section */
+
+ .container{
+    max-width:1440px;
+    width:100%;
+    margin: 50px auto;
+ }
+
+ .grid-theme{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .bio{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+
+ }
+.bio-img{
+    max-width:430px;
+    width:100%;
+}
+.bio-img:hover{
+    border:2px solid rgb(17, 17, 174);
+    cursor:pointer;
+}
+
+.hire-btn{
+    width:150px;
+    height:50px;
+    background-color:#E93656;
+    color:#FFFFFF;
+    font-size:15px;
+    font-family:'Glacial Indifference';
+    font-weight:bold;
+    border:none;
+    cursor: pointer; 
+    margin-right:70px;
+    transition: all 1s;
+   
+}
+.hire-btn:hover{
+    background-color:#a3243b;
+    transition: all 1s;
+    
+}
+
+.progress-bar{
+    width:300px;
+    height:9px;
+    background-color:#F0F0F0;
+    margin-top:15px;
+    margin-bottom:23px;
+   
+   
+}
+.skills{
+    margin-left:70px;
+    margin-top:50px;
+}
+  .progress{
+    width:240px;
+    height:9px;
+    background-color:#E93656;
+    /* transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s; */
+}  
+
+/* .progress-1:hover{
+  
+    width:256px;
+    background-color:#E93656; 
+   
+} */
+.outer-box{
+    width:50px;
+    height:50px;
+    background-color:#F9F9F9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform:scale(1);
+    transition: all 1s; 
+    cursor:pointer;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.inner-box{
+    width:9px;
+    height:20px;
+    background-color:#F9F9F9;
+    border:solid #6B6B6B 1px;
+    display:flex;
+    align-items: center;
+}
+.boxes{
+    display:flex;
+    justify-content:flex-start;
+    margin-top:78px;
+   
+   
+ 
+}
+.outer-box:hover{
+     background-color:#15263E;
+    transform:scale(1);
+    transition: all 1.3s; 
+   
+}
+
+.contacts-area{
+    background-color:#131A36;
+    margin-top:100px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contacts{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.address-logo{
+    margin:60px 29px;
+    cursor:pointer;
+}

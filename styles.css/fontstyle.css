@@ -10,6 +10,9 @@
 .about-logo >h2{
     font-size:158px;
     color:#1C1C1C;
+    font-family: 'Poppins';
+    font-weight:bold;
+    letter-spacing: 4.75px;
   
 }
 
@@ -17,41 +20,111 @@
     font-size:44px;
     margin-top:-100px;
     color:#373737; 
+    font-family:'Poppins';
+    font-weight:bold;
+    letter-spacing: 1.3px;
+    
+   
 }
 
 .roca-logo >h2{
     color:#1A1A1A;
     font-size:40px;
+    font-family: 'Poppins';
 }
 span{
     color:#0081FF;
     font-size:33px;
+  
 }
     
 
 .roca-logo > p{
     color:#B3B3B3;
     font-size:13px;
+    font-family:'Montserrat';
+    font-style: normal;
 }
 
 .introduction > h3{
     font-size:50px;
-    font-weight:normal;    
+    font-weight:normal;  
+    font-family:'Glacial Indifference';
+    font-style:normal;  
+    letter-spacing: 0.75px;
 }
 .introduction > h1{
     font-size:71px;
+    font-family:'Glacial Indifference';
+    font-weight:bold;
+    letter-spacing: 1.06px;;
 }
 .introduction >p {
     font-size:24px;
+    font-family:'Glacial Indifference';
+    font-style:normal;
+    font-weight:normal;
 }
 .percentage{
     font-size:24px;
     color:#E93656;
     padding-right:5px;
+    font-family:'Montserrat';
+    font-weight:bold;
+    
    
 }
 .progress >p{
     font-size:24px;
     font-weight:bold;
     padding-bottom:15px;
+ }
+ .main-progress >p{
+     font-family:'Montserrat';
+     font-weight:bold;
+     font-size:24px;
+ }
+
+ /* second section style*/
+
+ .bio > h2{
+    color:#222222;
+    font-size:40px;
+    font-weight:normal; 
+    margin-right:70px;
+    margin-bottom:6px; 
+    font-family:'Glacial Indifference';
+    font-weight:bold;
+ }
+ .web{
+    color:#DAAE19;
+    font-size:14px;
+     margin-bottom:33px;
+     margin-right:70px;
+     font-family:'Muli';
+ }
+ .bio-text{  
+    margin-right:70px;
+    color:#555555;
+    letter-spacing: 0.45px;
+     margin-bottom:60px; 
+    width:334px;
+    font-family:'Muli';
+    font-style:normal;
+ }
+
+ .priv-info>h3{
+    color:#FFFFFF;
+    font-size:25px;
+    margin-bottom:15px;
+    font-family:'Glacial Indifference';
+    font-weight:bold;
+    letter-spacing: 0.75px;
+ }
+ .priv-info>p,a{
+    color:#DFDFDF;
+    letter-spacing: 0.42px;
+    font-size:14px;
+    font-family: 'Muli';
+    letter-spacing: 0.42px;
  }

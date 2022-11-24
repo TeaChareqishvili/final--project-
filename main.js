@@ -1,10 +1,10 @@
-
+// first section 
 const slideShow = document.querySelectorAll('.hide');
 let currentImageCounter = 0;
 
  slideShow[currentImageCounter].style.display ="block";
 // slideShow[currentImageCounter].style.opacity=1;
-//   setInterval(nextImage, 5000);
+//    setInterval(nextImage, 2000);
 
 function nextImage(){
      slideShow[currentImageCounter].style.display ="none";
@@ -13,3 +13,4 @@ function nextImage(){
      slideShow[currentImageCounter].style.display ="block";
     // slideShow[currentImageCounter].style.opacity=1;
 }
+

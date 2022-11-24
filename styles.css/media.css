@@ -1,0 +1,53 @@
+
+@media (max-width:1024px){
+    *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+    }
+/* section first */
+
+    .head-logo{
+        display:none;
+    }
+
+    .slide{
+        max-width:1024px;
+        width:100%;
+        display:flex;
+    
+    }
+    .about-image{
+        width:100%;
+        /* height:700px; */
+        object-fit: cover;
+        position:relative;
+        /* opacity:0;
+        transition: opacity 1s ease-in-out; */
+    }
+    .introduction{
+        position:absolute;
+        bottom:30%;
+        right:0;
+     }
+
+     .progress{
+        display:none;
+     }
+     .introduction > h3{
+        font-size:30px;
+        font-weight:normal;    
+    }
+    .introduction > h1{
+        font-size:50px;
+    }
+    .introduction >p {
+        font-size:20px;
+    }
+    .web-logo{
+        position:absolute;
+        bottom:20%;
+        right:0;
+     }
+}
+
