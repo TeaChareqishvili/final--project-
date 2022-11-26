@@ -45,8 +45,6 @@
  }
 
  .logo{
-    width:30px;
-    height:30px;
     margin-left:20px;
     margin-right:20px;
     cursor:pointer; 
@@ -99,7 +97,11 @@
     border:2px solid rgb(17, 17, 174);
     cursor:pointer;
 }
+/* .image-div{
+    max-width:430px;
+    width:100%;
 
+} */
 .hire-btn{
     width:150px;
     height:50px;
@@ -133,22 +135,21 @@
     margin-left:70px;
     margin-top:50px;
 }
+/* .progress-bar:hover .progress{
+    transition: all 1s;
+    width:80%;
+} */
   .progress{
-    width:240px;
+    width:0%;
     height:9px;
     background-color:#E93656;
+    transition: all 1s;
     /* transition-property: width;
     transition-duration: 2s;
     transition-timing-function: linear;
     transition-delay: 1s; */
 }  
 
-/* .progress-1:hover{
-  
-    width:256px;
-    background-color:#E93656; 
-   
-} */
 .outer-box{
     width:50px;
     height:50px;
@@ -189,6 +190,7 @@
 .contacts-area{
     background-color:#131A36;
     margin-top:100px;
+    margin-bottom:100px;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
@@ -203,3 +205,51 @@
     margin:60px 29px;
     cursor:pointer;
 }
+
+
+/* third section */
+
+ .card-section{
+    display:flex;
+    justify-content: space-around;
+    margin:100px 0;
+} 
+
+
+.card{
+    width:285px;
+    height:360px;
+   
+    background-color:#FAFAFA;
+    display:flex;
+    flex-direction: column; 
+    justify-content:center;
+    align-items:center; 
+    
+}
+.back-card{
+    width:285px;
+    height:360px;
+    background-color:#15263E;   
+    border:solid 1px blue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display:none;
+}
+.back{
+    width:285px;
+    height:360px;
+    background-color:#15263E;   
+    border:solid 1px blue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .skill-cards{
+    display:flex;
+} */
