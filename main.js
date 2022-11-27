@@ -2,102 +2,30 @@
 const slideShow = document.querySelectorAll('.hide');
 let currentImageCounter = 0;
 
- slideShow[currentImageCounter].style.display ="block";
-// slideShow[currentImageCounter].style.opacity=1;
-//  setInterval(nextImage, 1000);
+slideShow[currentImageCounter].style.display ="block";
+//   setInterval(nextImage, 5000);
 
 function nextImage(){
-     slideShow[currentImageCounter].style.display ="none";
-    // slideShow[currentImageCounter].style.opacity=0;
-    currentImageCounter= ( currentImageCounter + 1)%(slideShow.length - 1);
-     slideShow[currentImageCounter].style.display ="block";
-    // slideShow[currentImageCounter].style.opacity=1;
+    slideShow[currentImageCounter].style.display ="none";
+    currentImageCounter= (currentImageCounter + 1)%(slideShow.length - 1);
+    slideShow[currentImageCounter].style.display ="block";
 }
 
+const skills = document.querySelector('.skills');
+const Design = document.getElementById('Design');
+const Photography = document.getElementById('Photography');
+const Marking = document.getElementById('Marking');
+const Photoshop = document.getElementById('Photoshop');
 
-const skillCards = document.querySelectorAll('.skill-cards');
-
-// skillCards.addEventListener('mouseenter', ()=>{
-//     card.classList.remove('card');
-//       card.classList.add('hide');
-//       backCard.classList.remove('back-card');
-//       backCard.classList.add('back');
-// })
-
-// section 3//
-
-
-
-//  skillCards.forEach(e =>{
-//     e.addEventListener('mouseenter',()=>{
-//         const card = document.querySelector('.card');
-//         const backCard = document.querySelector('.back-card');
-//         card.classList.remove('card');
-//         card.classList.add('hide');
-//        backCard.classList.remove('back-card');
-//        backCard.classList.add('back');
-//     })
-  
-//  })
-
-
-
-
-//  skillCards.forEach(e=>{
-//     e.addEventListener('mouseleave', ()=>{
-//         const card = document.querySelectorAll('.card');
-//         const backCard = document.querySelectorAll('.back-card');
-//         backCard.classList.remove('back');
-//         backCard.classList.add('back-card');
-//         card.classList.remove('hide');
-//         card.classList.add('card');
-//        })
-//  })
-
-// console.log(backCard);
-
-// console.log(card);
-// card.addEventListener('mouseenter', ()=>{
-//     card.classList.remove('card');
-//     card.classList.add('hide');
-//     backCard.classList.remove('hide');
-//     backCard.classList.add('back');
-// })
-
-// card.addEventListener('mouseleave', ()=>{
-//     backCard.classList.remove('back');
-//     backCard.classList.add('hide');
-//     card.classList.remove('hide');
-//     card.classList.add('card');
-   
-// })
-
-    // const card = document.querySelectorAll('.item-1, .item-2').forEach(item=>{
-    //     item.addEventListener('mouseenter', ()=>{
-    //         // item.classList.remove('card');
-    //          item.classList.add('hide');    
-    //         //  item.classList.remove('back-card');
-    //         item.classList.add('back');
-            
-    //     })
-    // });
-
-
-
-    // const backCard = document.querySelectorAll('.back-card').forEach(items =>{
-    //     items.addEventListener('mouseenter',()=>{
-    //         items.classList.remove('back-card');
-    //         items.classList.add('back');
-    //        console.log("jhadb")
-    //     })
-        
-    // })
-
-
-
-
-
-
+window.addEventListener('scroll', () => {
+    if(skills.getBoundingClientRect().top <= 400) {
+        console.log('start animation')
+        Design.style.width = 80 + "%"
+        Photography.style.width = 50 + "%"
+        Marking.style.width = 65 + "%"
+        Photoshop.style.width = 30 + "%"
+    }
+})
 
 
 //Progress bar animation
