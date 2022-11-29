@@ -158,3 +158,35 @@ span{
     text-align: center;
     width:222px;
  }
+
+ /* section four*/
+
+ .review-text{
+    max-width:497px;
+    width:100%;
+    text-align:right;
+    margin-right:50px;
+    margin-top:45px;
+    margin-bottom:47px;
+    font-family:'Roboto';
+    font-size:15px;
+    letter-spacing: 0.45px;
+    line-height: 1.6;
+    color:#FFFFFF;
+ }
+
+ .position{
+    color:#E93656;
+    font-family:'Roboto';
+    font-size:13px;
+    letter-spacing: 0.52px;
+    padding-bottom:9px;
+ }
+
+ .author{
+    color:#FFFFFF;
+    font-size:28px;
+    font-family:'Glacial Indifference';
+    font-weight:bold;
+    letter-spacing: 0.84px;
+ }

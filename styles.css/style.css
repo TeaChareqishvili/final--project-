@@ -85,7 +85,7 @@
     max-width:1440px;
     width:100%;
     margin: 50px auto;
-    display:none;
+   
  }
 
  .grid-theme{
@@ -107,11 +107,7 @@
     border:2px solid rgb(17, 17, 174);
     cursor:pointer;
 }
-/* .image-div{
-    max-width:430px;
-    width:100%;
 
-} */
 .hire-btn{
     width:150px;
     height:50px;
@@ -145,19 +141,12 @@
     margin-left:70px;
     margin-top:50px;
 }
-/* .progress-bar:hover .progress{
-    transition: all 1s;
-    width:80%;
-} */
+
   .progress{
     width:0%;
     height:9px;
     background-color:#E93656;
     transition: all 1s;
-    /* transition-property: width;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    transition-delay: 1s; */
 }  
 
 .outer-box{
@@ -217,11 +206,10 @@
 }
 
 
+
 /* third section */
 
- .card-section{
-   display:none;
-} 
+
 
 
 .card{
@@ -234,6 +222,8 @@
     align-items:center;  
     opacity: 1;
     transition: all 0.3s linear;
+    cursor: pointer;
+
 }
 
 
@@ -247,25 +237,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     /* display:none;  */
     position: absolute;
     bottom:5px;
     opacity: 0;
     transition: all 0.3s linear;
-    /* visibility: hidden; */
+    cursor: pointer;
+   
 }
-/* .back{
-    width:285px;
-    height:360px;
-    background-color:#15263E;   
-    border:solid 1px blue;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom:5px;
-} */
+
 
 .cards{
     display:flex;
@@ -282,14 +261,62 @@
 
 .skill-cards:hover .card {
     opacity: 0;
-    /* transition: all 0.3s linear; */
+   
 }
 .skill-cards:hover .back-card {
     opacity: 1;
     transition: all 0.3s linear;
 }
 
-/* .card:hover + .back-card{
-   visibility: visible;
-   /* display:block; */
-/* } */ 
+/* section four */ 
+
+.background{
+    background-image: url('../images/countdown.png');
+    display:flex;
+    justify-content:center;
+    height:400px;
+    background-color: #15263E;
+}
+.slide-btn{
+    width:13px;
+    height:13px;
+    border:solid 2px #FFFFFF;
+    margin:6.5px 0;
+    cursor: pointer;
+}
+.slide-btn:hover{
+    border:solid 2px #E93656;
+}
+.slide-buttons{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  
+   
+}
+.button-slide,.review{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-img{
+    border: dashed 2px white;
+    border-radius:50%;
+    padding:15px;
+}
+.person-name >img{
+    margin-bottom:45px;
+}
+
+.person-name{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left:50px;
+}
+.none{
+    display:none;
+}

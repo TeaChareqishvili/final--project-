@@ -36,5 +36,62 @@
         font-size:16px;
     }
     
+    /* section 2 */
+
+    .grid-theme{
+        display:flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .skills{
+        margin-left:0;
+        margin-top:0;
+    }
+     .image-div{
+        display:none;
+     }
+     .bio{
+        margin:30px 0;
+        align-items: center;
+     }
+
+     .contacts-area{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .contacts{
+        display:flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .bio > h2{
+        font-size:30px;
+        margin-right:0;
+        margin-bottom:0; 
+     }
+     .web{
+         margin-right:0;
+         margin-top:10px;
+     }
+     .bio-text{  
+        margin-right:0;
+       max-width:334px;
+       width:100%;
+       line-height:1.6;
+       
+     }
+     .hire-btn{ 
+        margin-right:0;
+    }
+    
+    .outer-box{
+        margin-left:10px;
+        margin-right:10px;
+    }
+    
 }
 
