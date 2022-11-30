@@ -273,27 +273,26 @@
 .background{
     background-image: url('../images/countdown.png');
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     height:400px;
     background-color: #15263E;
+    margin-bottom:72px;
 }
-.slide-btn{
+.slide-btn-first,.slide-btn-second,.slide-btn-third{
     width:13px;
     height:13px;
     border:solid 2px #FFFFFF;
     margin:6.5px 0;
     cursor: pointer;
 }
-.slide-btn:hover{
-    border:solid 2px #E93656;
-}
+  .slide-btn-first:hover,.slide-btn-second:hover,.slide-btn-third:hover{
+    border:solid 2px #E93656; 
+} 
 .slide-buttons{
     display:flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     justify-content:center;
-    align-items: center;
-  
-   
+    align-items: center; 
 }
 .button-slide,.review{
     display:flex;
