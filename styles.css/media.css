@@ -93,5 +93,23 @@
         margin-right:10px;
     }
     
+    .background{
+        flex-direction: column;
+        justify-content:center;
+       
+    }
+
+    .slide-buttons{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center; 
+    }
+
+    .slide-btn-first,.slide-btn-second,.slide-btn-third{
+       
+        margin:6.5px 5px;
+       
+    }
 }
 

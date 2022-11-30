@@ -27,3 +27,34 @@ window.addEventListener('scroll', () => {
     }
 })
 
+
+// section four slide with buttons
+
+const firstButton = document.querySelector('.slide-btn-first');
+const secondButton = document.querySelector('.slide-btn-second');
+const thirdButton = document.querySelector('.slide-btn-third');
+
+const firstReview = document.getElementById('review-1');
+const secondReview = document.getElementById('review-2');
+const thirdReview = document.getElementById('review-3');
+
+secondButton.addEventListener('click', ()=>{
+    // secondButton.style.border = 'solid 2px #E93656';
+    secondReview.classList.remove('none');
+    firstReview.classList.add('none');
+    thirdReview.classList.add('none');
+})
+
+firstButton.addEventListener('click',()=>{
+    // firstButton.style.border = 'solid 2px #E93656';
+    firstReview.classList.remove('none');
+    secondReview.classList.add('none');  
+    thirdReview.classList.add('none');
+})
+
+thirdButton.addEventListener('click', ()=>{
+    // thirdButton.style.border = 'solid 2px #E93656';
+    thirdReview.classList.remove('none');
+    firstReview.classList.add('none');
+    secondReview.classList.add('none');  
+})
