@@ -382,17 +382,20 @@ main{
 }
 
 
+
 .article-flex{
     display:flex;
     justify-content:flex-end;
 }
-.article{
+ .article{
     background-color:#FAFAFA;
     max-width:800px;
     padding:40px 40px 40px 24px;
     max-height:590px;
- 
-}
+   
+} 
+
+
 .years{
     background-color:#15263E;
     display:flex;
@@ -422,4 +425,17 @@ main{
     display:flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
+}
+
+.second-article{
+    background-color:#FAFAFA;
+    max-width:800px;
+    padding:40px 5px 40px 80px;
+    max-height:590px;
+} 
+.third-article{
+    background-color:#FAFAFA;
+    max-width:800px;
+    padding:40px 80px 40px 80px;
+    max-height:590px;
 }

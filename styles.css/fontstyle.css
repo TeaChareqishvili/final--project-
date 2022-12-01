@@ -283,3 +283,18 @@ span{
     padding-top:10px;
     
 }
+
+.second-article>h4{
+    font-family:'Glacial Indifference';
+    color:#161616;
+    font-size:40px;
+    font-weight:bold;
+    padding-bottom:28px;
+}
+.third-article>h4{
+    font-family:'Glacial Indifference';
+    color:#161616;
+    font-size:40px;
+    font-weight:bold;
+    padding-bottom:28px;
+}
