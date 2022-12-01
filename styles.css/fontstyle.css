@@ -190,3 +190,42 @@ span{
     font-weight:bold;
     letter-spacing: 0.84px;
  }
+
+ /* section 5 */
+
+ .latest-pro{
+    font-family:'Glacial Indifference';
+    font-weight:bold;
+    font-size:70px;
+    color:#2E2E2E;
+    text-align: center;
+ }
+
+ .nav-li{
+    font-family:'Glacial Indifference';
+    font-size:20px;
+    font-weight:bold;
+    color:#FFFFFF;
+    padding-top:7px;
+    padding-bottom:7px;
+    cursor: pointer;
+ }
+ .nav-li:hover{
+    color:#E93656;
+ }
+
+ .date{
+    font-family:'Muli';
+    font-size:11px;
+    letter-spacing: 0.33px;
+    color:#DDDDDD;
+    padding:7px 0;
+ }
+ .title{
+    color:#FFFFFF;
+    font-family:'Glacial Indifference';
+    font-size:23px;
+    font-weight:bold;
+    padding-top:7px;
+   
+ }

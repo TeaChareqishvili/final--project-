@@ -3,6 +3,7 @@
     margin:0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -271,11 +272,11 @@
 /* section four */ 
 
 .background{
-    background-image: url('../images/countdown.png');
+    background-image: url('../images/clip.jpg');
     display:flex;
     justify-content:space-around;
     height:400px;
-    background-color: #15263E;
+
     margin-bottom:72px;
 }
 .slide-btn-first,.slide-btn-second,.slide-btn-third{
@@ -319,3 +320,47 @@
 .none{
     display:none;
 }
+
+/* section 5 */
+.main-flex{
+    display:flex;
+    justify-content:center;
+
+}
+.img-pro{
+    max-width:300px;
+    width:100%;
+    height:350px;
+    object-fit: cover;
+}
+.side-bar{
+    background-color:#15263E;
+    padding:50px;
+    max-height: 400px;
+  
+}
+.project{
+    position: relative;
+}
+
+.title-background{
+    max-width:300px;
+    width:100%;
+    height:350px;
+    background-color:#000000;
+    opacity: 80%;
+    position:absolute;
+    bottom:4px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display:none;
+}
+.heart-logo{
+    border:solid 2px #E93656;
+    border-radius:50%;
+   padding:19px;
+   margin-bottom:17px;
+}
+
