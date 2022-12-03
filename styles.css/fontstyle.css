@@ -232,7 +232,7 @@ span{
    
  }
 
- .article-title>p{
+ .article-title>p,.rosa>p{
     font-family:'Glacial Indifference';
     font-size:13px;
     color:#2ED279;
@@ -297,4 +297,22 @@ span{
     font-size:40px;
     font-weight:bold;
     padding-bottom:28px;
+}
+
+.rosa-card>h4{
+    font-family:'Poppins';
+    font-weight:bold;
+    font-size:16px;
+    letter-spacing: 0.32px;
+    padding-top:16px;
+    padding-bottom:8px;
+    color:#161616;
+}
+.rosa-card>p{    
+    font-family:'Roboto-Light';
+    font-size:13px;
+    color:#626262;
+    letter-spacing: 0.39px;
+    padding-top:8px;
+
 }

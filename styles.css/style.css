@@ -421,7 +421,7 @@ main{
 
 }
 .second-article-flex{
-    width:90%;
+    width:95%;
     display:flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
@@ -438,4 +438,53 @@ main{
     max-width:800px;
     padding:40px 80px 40px 80px;
     max-height:590px;
+}
+.article-div{
+    margin-bottom:80px;
+}
+.rosa-team{
+    margin-top:80px;
+    margin-bottom:100px;
+}
+
+.rosa-card{
+    background-color:#FFFFFF;
+    border:solid 4px #E93656;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:32px;
+    position:absolute;
+    width:210px;
+    bottom:3%;
+  opacity:0;
+   
+}
+
+.logos{
+    margin-top:100px;
+    position:relative;
+    display:flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.all-logos{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom:75px;
+}
+.logo-image{
+    opacity:1;
+}
+
+.logos:hover .logo-image{
+   opacity:0;
+}
+
+.logos:hover .rosa-card{
+   opacity:1;
 }
