@@ -359,3 +359,42 @@ span{
     justify-content: center;
     cursor: pointer;
 }
+
+/* footer */
+
+.footer-title>h3{
+   font-family:'Poppins-ExtraBold';
+   font-size:55px;
+   letter-spacing: 1.66px;
+   color:#FFFFFF;
+   padding-top:22px;
+   padding-bottom:22px;
+   margin-top:22px;
+}
+.footer-span{
+    color:#E93656;
+    font-size:45px;
+}
+
+.footer-title>p{
+    width:100%;
+    color:#A5A5A5;
+    font-family: 'Roboto-Regular';
+    letter-spacing: 0.09px;
+    font-size:17px;
+    padding-bottom:35px;  
+}
+.footer>p{
+    color:#A0A8B7;
+    font-size:15px;
+    font-family:'Muli';
+    padding-top:30px;
+    padding-bottom:5px;
+    text-align: center;
+}
+em{
+    font-style: normal;
+    color:#FFFFFF;
+    font-size:15px;
+    font-family:'Muli';
+}

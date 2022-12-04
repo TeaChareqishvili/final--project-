@@ -499,7 +499,7 @@ main{
     background-image: url('../images/map.jpg');
     position:relative;
     height:660px;
-   
+
    
 }
 
@@ -553,4 +553,31 @@ main{
     align-items: center;
     margin-top:15px;
    
+}
+.footer-div{
+    background-color:#282828;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    max-width:613px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logos{
+    margin:40px 0;
+}
+.fa{
+    margin:0 5px;
+    color:aqua;
+}
+
+.footer{
+    background-color:#171717;
+    
 }
