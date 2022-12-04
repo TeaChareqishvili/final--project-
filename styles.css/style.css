@@ -482,16 +482,33 @@ main{
 
 /* form section */
 
-.form-section{
-   
-}
+
 .form-back{
     margin-top:75px; 
     background-image: url('../images/map.jpg');
     position:relative;
     height:660px;
+ 
+}
 
+.modal{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border:solid 4px DarkSeaGreen;
+    padding:30px; 
+    background-color:#15263E;
    
+}
+.block{
+    display:none;
+}
+.modal-border{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
  .form-layer{

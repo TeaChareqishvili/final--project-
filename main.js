@@ -62,4 +62,66 @@ thirdButton.addEventListener('click', ()=>{
 
 
 
+const regForm = document.getElementById('reg-form');
+const userName = document.getElementById('name');
+const userEmail = document.getElementById('email');
+const userUrl = document.getElementById('url');
+const userMessage = document.getElementById('user-message');
 
+const regButton = document.getElementById('submit');
+const modal = document.querySelector('.block');
+const modalButton = document.querySelector('.modal-btn');
+
+
+function addNewUser(info) {
+    fetch("https://borjomi.loremipsum.ge/api/send-message", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(info),
+    })
+        .then((res) => res.json())
+        .then((data) => {
+          
+        })
+       
+       
+        .catch((err) => {
+            console.log(err);
+        });
+}
+
+
+
+regForm.addEventListener('submit',(e)=>{
+    e.preventDefault();
+
+    const userNameValue = userName.value   
+    const userEmailValue = userEmail.value
+    const userUrlValue = userUrl.value
+    const userMessageValue = userMessage.value
+
+
+
+    const user = {
+        Name:userNameValue,
+        Email:userEmailValue,
+        website: userUrlValue,
+        message:  userMessageValue
+    }
+    console.log(user);
+    
+    buttonsEvent();
+    addNewUser(user);
+ 
+     regForm.reset();
+    
+})
+
+function buttonsEvent(){
+
+        modal.classList.remove('block');
+       
+       modalButton.addEventListener('click',()=>{
+         modal.classList.add('block');
+       })
+}

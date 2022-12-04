@@ -360,6 +360,20 @@ span{
     cursor: pointer;
 }
 
+.modal-text{
+    color:DarkSeaGreen;
+    font-family:'Poppins-ExtraBold';
+    font-size:20px;
+    letter-spacing:0.75px;
+    padding:15px 0;
+}
+
+.modal-btn{
+    background-color:DarkSeaGreen;
+    color:azure;
+    padding:10px 22px;
+    cursor: pointer;
+}
 /* footer */
 
 .footer-title>h3{
