@@ -168,22 +168,13 @@ main{
     margin-right:5px;
 }
 
-.inner-box{
-    width:9px;
-    height:20px;
-    background-color:#F9F9F9;
-    border:solid #6B6B6B 1px;
-    display:flex;
-    align-items: center;
-}
+
 .boxes{
     display:flex;
     justify-content:flex-start;
     margin-top:78px;
-   
-   
- 
 }
+
 .outer-box:hover{
      background-color:#15263E;
     transform:scale(1);
@@ -442,10 +433,11 @@ main{
 .article-div{
     margin-bottom:80px;
 }
-.rosa-team{
-    margin-top:80px;
-    margin-bottom:100px;
-}
+
+/* rosa team */
+
+
+
 
 .rosa-card{
     background-color:#FFFFFF;
@@ -457,8 +449,7 @@ main{
     padding:32px;
     position:absolute;
     width:210px;
-   bottom:5%;
-  opacity:0;
+    opacity:0;
    
 }
 
@@ -468,6 +459,7 @@ main{
     display:flex;
     justify-content: space-evenly;
     cursor: pointer;
+    align-items: center;
 }
 
 
@@ -475,7 +467,6 @@ main{
     display:flex;
     justify-content:space-evenly;
     align-items: center;
-    margin-bottom:75px;
 }
 .logo-image{
     opacity:1;
