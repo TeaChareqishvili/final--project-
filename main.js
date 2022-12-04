@@ -121,3 +121,53 @@ function buttonsEvent(){
          modal.classList.add('block');
        })
 }
+
+
+
+
+const navLi = document.querySelectorAll('.nav-li');
+const frontImage = document.querySelectorAll('.front-project');
+const background = document.querySelectorAll('.title-background');
+
+navLi.forEach((e) => 
+    e.addEventListener('click', (li) =>{
+        let clickedId = li.target.getAttribute('id');
+        if(clickedId != "allid"){
+            showCurrentImage(clickedId);
+        } else {
+            showAllImages();
+        }
+    })
+)
+     
+function showCurrentImage(itemId){
+
+    let activeImage = itemId + "-img";
+
+     frontImage.forEach((el) =>{
+        let image = el.getAttribute('id');
+          if(activeImage != image){
+            el.classList.add('display')
+          } else {
+            el.classList.remove('display');
+          }
+     })
+
+     background.forEach((e) => {
+        e.classList.remove('title-background');
+        e.classList.add('block');
+     })
+}
+
+function showAllImages(){
+    frontImage.forEach((el) =>{
+        el.classList.remove('display');
+    })
+    background.forEach((e) => {
+        e.classList.remove('block');
+        e.classList.add('title-background');
+       
+     })
+}
+
+

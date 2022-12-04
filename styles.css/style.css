@@ -21,8 +21,6 @@ main{
     right:10%;
 }
 .slide{
-    max-width:1440px;
-    width:100%;
     display:flex;
 }
 .about-image{
@@ -87,8 +85,6 @@ main{
  /* second section */
 
  .container{
-    max-width:1440px;
-    width:100%;
     margin: 50px auto;
    
  }
@@ -319,14 +315,13 @@ main{
 /* section 5 */
 
 .project-section{
-    margin-bottom:85px;
+    width:80%;
+    margin: 50px auto;
 }
+
 .main-flex{
     display:flex;
     justify-content:center;
-    
-   
-
 }
 .img-pro{
     max-width:300px;
@@ -339,17 +334,23 @@ main{
     background-color:#15263E;
     padding:50px;
     max-height: 400px;
-   margin:0 50px;
-  
 }
 
 .project{
     position: relative;
 }
+.project:hover .title-background{
+    /* display:block; */
+    opacity:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .projects-all{
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
 }
 .title-background{
     max-width:300px;
@@ -359,11 +360,8 @@ main{
     opacity: 80%;
     position:absolute;
     bottom:4px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     display:none;
+     /* display:none; */
+     opacity:0;
 }
 .heart-logo{
     border:solid 2px #E93656;
@@ -372,6 +370,9 @@ main{
    margin-bottom:17px;
 }
 
+.display{
+   opacity:0;
+}
 
 
 .article-flex{
@@ -590,3 +591,8 @@ main{
     background-color:#171717;
     
 }
+
+
+
+
+
