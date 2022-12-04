@@ -316,3 +316,46 @@ span{
     padding-top:8px;
 
 }
+
+
+
+
+/* form section*/
+
+.form-div>h4{
+    font-family: 'Jaapokki';
+    font-size:45px;
+    color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 1.35px;
+    padding-top:100px;
+    padding-bottom:12px;
+    
+}
+
+.form-div>p{
+    font-family: 'Roboto-Light';
+    font-size:17px;
+    letter-spacing:0.51px;
+    text-align: center;
+    padding-bottom:23px;
+    color:#FAFAFA;
+    
+}
+
+::placeholder{
+    color:#515151;
+    font-size:10px;
+    font-family:'Poppins-SemiBold';
+    letter-spacing: 0.4px;
+}
+
+.reg-btn{
+    background-color:#DAAF1B00;
+     border:solid #E93656 2px;
+    color:#E93656;
+    padding:16px 46px;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+}
