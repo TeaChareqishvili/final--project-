@@ -19,7 +19,6 @@ const Photoshop = document.getElementById('Photoshop');
 
 window.addEventListener('scroll', () => {
     if(skills.getBoundingClientRect().top <= 400) {
-        // console.log('start animation')
         Design.style.width = 80 + "%"
         Photography.style.width = 50 + "%"
         Marking.style.width = 65 + "%"
@@ -39,28 +38,25 @@ const secondReview = document.getElementById('review-2');
 const thirdReview = document.getElementById('review-3');
 
 secondButton.addEventListener('click', ()=>{
-    // secondButton.style.border = 'solid 2px #E93656';
     secondReview.classList.remove('none');
     firstReview.classList.add('none');
     thirdReview.classList.add('none');
 })
 
 firstButton.addEventListener('click',()=>{
-    // firstButton.style.border = 'solid 2px #E93656';
     firstReview.classList.remove('none');
     secondReview.classList.add('none');  
     thirdReview.classList.add('none');
 })
 
 thirdButton.addEventListener('click', ()=>{
-    // thirdButton.style.border = 'solid 2px #E93656';
     thirdReview.classList.remove('none');
     firstReview.classList.add('none');
     secondReview.classList.add('none');  
 })
 
 
-
+// send user to server 
 
 const regForm = document.getElementById('reg-form');
 const userName = document.getElementById('name');
