@@ -99,8 +99,8 @@ regForm.addEventListener('submit',(e)=>{
 
 
     const user = {
-        Name:userNameValue,
-        Email:userEmailValue,
+        name:userNameValue,
+        email:userEmailValue,
         website: userUrlValue,
         message:  userMessageValue
     }
