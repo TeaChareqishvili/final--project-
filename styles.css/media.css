@@ -273,4 +273,30 @@
         padding-bottom:35px;  
     }
   
+    .project-section{
+        width:100%;
+        margin: 50px 0;
+    }
+    
+    .main-flex{
+        display:flex;
+        flex-direction: column;
+    }
+    .nav-bar,.nav-ul{
+        display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+     .nav-li{
+        font-family:'Glacial Indifference';
+        font-size:20px;
+        font-weight:bold;
+        color:#FFFFFF;
+        padding:10px 0;
+        cursor: pointer;
+       
+     } 
+    
+     
 }

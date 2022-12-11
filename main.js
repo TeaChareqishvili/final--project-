@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
 
 
 // section four slide with buttons
-//namings
+
 const firstButton = document.querySelector('.slide-btn-first');
 const secondButton = document.querySelector('.slide-btn-second');
 const thirdButton = document.querySelector('.slide-btn-third');
