@@ -155,27 +155,13 @@ function showCurrentImage(itemId){
           
      })
 
-    //  background.forEach((e) => {
-    //     e.classList.remove('title-background');
-    //     e.classList.add('block');
-    //  })
+   
 }
 
 function showAllImages(){
     frontImage.forEach((el) =>{
         el.classList.remove('display');
     })
-    // background.forEach((e) => {
-    //     e.classList.remove('block');
-    //     e.classList.add('title-background');
-       
-    //  })
+  
 }
 
-function hoverTheme(){
-    if (frontImage.index != background.index){
-        background.classList.remove('title-background');
-        background.classList.add('block');
-    }
-}
-hoverTheme();
