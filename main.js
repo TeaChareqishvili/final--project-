@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
 
 
 // section four slide with buttons
-
+//namings
 const firstButton = document.querySelector('.slide-btn-first');
 const secondButton = document.querySelector('.slide-btn-second');
 const thirdButton = document.querySelector('.slide-btn-third');
@@ -79,8 +79,6 @@ function addNewUser(info) {
         .then((data) => {
           
         })
-       
-       
         .catch((err) => {
             console.log(err);
         });
@@ -114,12 +112,10 @@ regForm.addEventListener('submit',(e)=>{
 })
 
 function buttonsEvent(){
-
-        modal.classList.remove('block');
-       
-       modalButton.addEventListener('click',()=>{
-         modal.classList.add('block');
-       })
+    modal.classList.remove('block');
+    modalButton.addEventListener('click',()=>{
+    modal.classList.add('block');
+    })
 }
 
 
@@ -129,11 +125,14 @@ const navLi = document.querySelectorAll('.nav-li');
 const frontImage = document.querySelectorAll('.front-project');
 const background = document.querySelectorAll('.title-background');
 
+
+
 navLi.forEach((e) => 
     e.addEventListener('click', (li) =>{
         let clickedId = li.target.getAttribute('id');
         if(clickedId != "allid"){
             showCurrentImage(clickedId);
+            
         } else {
             showAllImages();
         }
@@ -148,26 +147,35 @@ function showCurrentImage(itemId){
         let image = el.getAttribute('id');
           if(activeImage != image){
             el.classList.add('display')
-          } else {
+             
+          }   else {
             el.classList.remove('display');
           }
+       
+          
      })
 
-     background.forEach((e) => {
-        e.classList.remove('title-background');
-        e.classList.add('block');
-     })
+    //  background.forEach((e) => {
+    //     e.classList.remove('title-background');
+    //     e.classList.add('block');
+    //  })
 }
 
 function showAllImages(){
     frontImage.forEach((el) =>{
         el.classList.remove('display');
     })
-    background.forEach((e) => {
-        e.classList.remove('block');
-        e.classList.add('title-background');
+    // background.forEach((e) => {
+    //     e.classList.remove('block');
+    //     e.classList.add('title-background');
        
-     })
+    //  })
 }
 
-
+function hoverTheme(){
+    if (frontImage.index != background.index){
+        background.classList.remove('title-background');
+        background.classList.add('block');
+    }
+}
+hoverTheme();

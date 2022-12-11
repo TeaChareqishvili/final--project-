@@ -59,8 +59,10 @@
 
      .contacts-area{
         display:flex; 
-        justify-content:space-evenly;
-        align-items: center;
+        flex-direction: column;
+         justify-content:center;
+        align-items: center; 
+        padding:20px;
     }
 
     .priv-info{
@@ -68,12 +70,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom:10px;
+        padding:20px;
     }
     .contacts{
         display:flex;
         justify-content:space-evenly;
         align-items: center;
+       
     }
     .bio > h2{
         font-size:30px;
@@ -133,20 +136,29 @@
     margin: 50px 0;
 }
 
-.nav-li{
+.main-flex{
+    display:flex;
+    flex-direction: column;
+}
+.nav-bar,.nav-ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ .nav-li{
     font-family:'Glacial Indifference';
     font-size:20px;
     font-weight:bold;
     color:#FFFFFF;
-    padding-top:35px;
-    padding-bottom:35px;
+    padding:0 20px;
     cursor: pointer;
- }
+    display:flex;
+    align-items: center;
+ } 
 
  .side-bar{
-    background-color:#15263E;
-    padding:60px;
-    max-height: 900px;
+    margin:20px 0;
+
 }
 
 .article-section{
@@ -176,4 +188,89 @@
 }
 
 
+}
+
+@media (max-width:480px){
+.web-logo{
+    display:none;
+}
+.person-img{
+    display:none;
+  }
+
+  .review-text{
+    max-width:320px;
+    width:100%;
+    font-size:13px;  
+ }
+
+ .message{
+    max-width:300px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+
+}
+
+
+
+
+@media (max-width:768px){
+    .person-name{
+        display:none;
+    }
+  
+    .main-flex{
+      
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-bar,.nav-ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+     .nav-li{
+        font-family:'Glacial Indifference';
+        font-size:16px;
+        font-weight:bold;
+        color:#FFFFFF;
+        cursor: pointer;
+        display:flex;
+        align-items: center;
+        
+      
+     } 
+    
+     .side-bar{
+        margin:20px 0px;
+        padding:60px;
+       
+    
+    }
+  
+    .message{
+        max-width:290px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+       
+    }
+    .footer-title>p{
+        width:60%;
+        color:#A5A5A5;
+        font-family: 'Roboto-Regular';
+        letter-spacing: 0.09px;
+        font-size:14px;
+        padding-bottom:35px;  
+    }
+  
 }
