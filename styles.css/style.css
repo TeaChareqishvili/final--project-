@@ -303,6 +303,9 @@ main{
     border: dashed 2px white;
     border-radius:50%;
     padding:15px;
+    max-width:140px;
+    max-height:140px;
+
 }
 .person-name >img{
     margin-bottom:45px;
@@ -387,6 +390,7 @@ main{
 .article-flex{
     display:flex;
     justify-content:flex-end;
+    
 }
  .article{
     background-color:#FAFAFA;
@@ -402,11 +406,11 @@ main{
     display:flex;
     justify-content: center;
     align-items: center;
-    max-height:482px;
+    max-height:590px;
 }
 .image{
     max-height:590px;
-    max-width:800px;
+    max-width:950px;
 }
 .article-img{
     width:100%;
